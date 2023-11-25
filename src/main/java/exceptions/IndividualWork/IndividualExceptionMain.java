@@ -12,6 +12,7 @@ public class IndividualExceptionMain {
             isAADTurnedOn(true);
         } catch (CanJumpFromPlaneException | AadIsNotTurnedOnException | IndexOutOfBoundsException e) {
             System.out.println(e.getMessage());
+
         }
     }
 
