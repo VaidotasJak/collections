@@ -1,5 +1,8 @@
 package exceptions.example1;
 
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
 public class ExeptionHandlingExample1 {
 
     /**
@@ -35,6 +38,25 @@ public class ExeptionHandlingExample1 {
      * @param args
      */
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Program started....");
+        try{
+            System.out.println("Doing calculations..");
+            System.out.println("ENter a number:");
+            int number = scanner.nextInt();
+
+            System.out.println("devidint 10 by " + number);
+            int result = 10 / number;
+            System.out.println("result is: " + result);
+        }catch(ArithmeticException ex){
+            System.out.println("Exceptions is cought. you cannot device by zero");
+//            ex.printStackTrace();
+            //galiu kviesti kitus met
+        } catch (InputMismatchException ex){
+            System.out.println("buvo blogas inputas");
+        }
+        System.out.println("Program is proceeding further...");
+        System.out.println("Program ends.");
 
     }
 }
