@@ -1,0 +1,36 @@
+[
+  {
+    "name": "John",
+    "favoriteWords": [
+      "apple",
+      "dog"
+    ],
+    "cars": [
+      {
+        "brand": "BMW",
+        "topSpeed": 100
+      },
+      {
+        "brand": "Volvo",
+        "topSpeed": 120
+      }
+    ]
+  },
+  {
+    "name": "Alice",
+    "favoriteWords": [
+      "sun",
+      "table"
+    ],
+    "cars": [
+      {
+        "brand": "Audi",
+        "topSpeed": 50
+      },
+      {
+        "brand": "Toyota",
+        "topSpeed": 140
+      }
+    ]
+  }
+]
