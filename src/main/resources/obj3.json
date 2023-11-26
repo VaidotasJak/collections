@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Roman",
+    "favoriteWords": [
+      "Labas",
+      "Aciu",
+      "Prasau"
+    ],
+    "cars": [
+      {
+        "brand": "Bmw",
+        "topSpeed": 100
+      },
+      {
+        "brand": "Volvo",
+        "topSpeed": 150
+      },
+      {
+        "brand": "Mersedes",
+        "topSpeed": 200
+      }
+    ]
+  }
+]
